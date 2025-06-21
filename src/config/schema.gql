@@ -1,0 +1,24 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  listRepositories: [RepoListItem!]!
+  repositoryDetails(repo: String!): RepoDetails!
+}
+
+type RepoDetails {
+  isPrivate: Boolean!
+  name: String!
+  numberOfFiles: Float!
+  owner: String!
+  size: Float!
+  webhooks: [String!]!
+  ymlFileContent: String
+}
+
+type RepoListItem {
+  name: String!
+  owner: String!
+  size: Float!
+}
