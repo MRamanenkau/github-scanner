@@ -6,7 +6,7 @@ Apollo GraphQL server built with TypeScript, integrating GitHub API to list repo
 
 ## Getting Started
 ### Prerequisites
-* `node.js`: v20 or higher.
+* `node.js`: v23 or higher.
 * `npm`: v10 or higher.
 * Note: Lower versions of `node.js` and `npm` may work, but there is no guarantee of compatibility.
 
